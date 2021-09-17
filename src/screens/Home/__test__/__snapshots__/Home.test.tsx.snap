@@ -1,0 +1,200 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<RNCSafeAreaProvider
+  onInsetsChange={[Function]}
+  style={
+    Array [
+      Object {
+        "flex": 1,
+      },
+      undefined,
+    ]
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "backgroundColor": "#ccc",
+        "flex": 1,
+        "justifyContent": "center",
+        "paddingTop": 20,
+      }
+    }
+  >
+    <RCTScrollView
+      ListFooterComponent={[Function]}
+      bounces={false}
+      centerContent={true}
+      data={Array []}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      getItemLayout={[Function]}
+      keyExtractor={[Function]}
+      onContentSizeChange={[Function]}
+      onLayout={[Function]}
+      onMomentumScrollBegin={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      viewabilityConfigCallbackPairs={Array []}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+        >
+          <View
+            style={
+              Object {
+                "marginTop": 50,
+              }
+            }
+          >
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              nativeID="animatedComponent"
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "backgroundColor": "#fff",
+                  "borderRadius": 4,
+                  "height": 44,
+                  "justifyContent": "center",
+                  "marginVertical": 10,
+                  "opacity": 1,
+                  "width": "90%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Generate
+              </Text>
+            </View>
+            <View
+              accessible={true}
+              collapsable={false}
+              focusable={true}
+              nativeID="animatedComponent"
+              onClick={[Function]}
+              onResponderGrant={[Function]}
+              onResponderMove={[Function]}
+              onResponderRelease={[Function]}
+              onResponderTerminate={[Function]}
+              onResponderTerminationRequest={[Function]}
+              onStartShouldSetResponder={[Function]}
+              style={
+                Object {
+                  "alignItems": "center",
+                  "alignSelf": "center",
+                  "backgroundColor": "#fff",
+                  "borderRadius": 4,
+                  "height": 44,
+                  "justifyContent": "center",
+                  "marginVertical": 10,
+                  "opacity": 1,
+                  "width": "90%",
+                }
+              }
+            >
+              <Text
+                style={
+                  Object {
+                    "color": "#000",
+                    "fontSize": 16,
+                    "fontWeight": "bold",
+                  }
+                }
+              >
+                Show Logs
+              </Text>
+            </View>
+          </View>
+        </View>
+      </View>
+    </RCTScrollView>
+    <Modal
+      animationType="slide"
+      hardwareAccelerated={false}
+      onDismiss={[Function]}
+      transparent={true}
+      visible={false}
+    >
+      <View
+        style={
+          Object {
+            "flex": 1,
+            "justifyContent": "flex-end",
+          }
+        }
+      >
+        <View
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          nativeID="animatedComponent"
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "backgroundColor": "#0007",
+              "bottom": 0,
+              "justifyContent": "center",
+              "left": 0,
+              "opacity": 1,
+              "position": "absolute",
+              "right": 0,
+              "top": 0,
+            }
+          }
+        />
+        <View
+          style={
+            Object {
+              "backgroundColor": "#fff",
+              "maxHeight": "60%",
+              "minHeight": 150,
+              "width": "100%",
+            }
+          }
+        >
+          <RCTScrollView
+            bounces={false}
+          >
+            <View />
+          </RCTScrollView>
+        </View>
+      </View>
+    </Modal>
+  </View>
+</RNCSafeAreaProvider>
+`;
